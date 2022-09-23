@@ -1,0 +1,28 @@
+ion-toolbar {
+  font-family: "Oswald", sans-serif;
+  font-size:xx-large;
+}
+
+ion-content {
+  ion-card {
+    ion-card-header {
+      ion-card-title {
+        font-family: "Oswald", sans-serif;
+        font-size: x-large;
+      }
+      ion-card-subtitle {
+        font-family: "Oswald", sans-serif;
+        font-size: medium;
+        font-style: italic;
+      }
+
+    }
+
+    ion-card-content{
+
+        font-family: "Oswald", sans-serif;
+        font-size:large;
+
+    }
+  }
+}

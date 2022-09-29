@@ -2,9 +2,18 @@
 ion-item{
   ion-label{
     font-family: 'Oswald', sans-serif;
-    font-size:larger;
+    font-size:x-large;
+    
   }
 
+  ion-thumbnail{
+   
+    width:80px;
+    height: 100px;
+    img{
+      border-radius: 10%;
+    }
+  }
 }
 ion-header{
   ion-toolbar{
@@ -13,7 +22,7 @@ ion-header{
       font-size:x-large;
     }
   }
-
+  
 }
 #container {
   text-align: center;

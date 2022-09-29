@@ -1,6 +1,15 @@
+
+  ion-toolbar {
+    ion-title {
+      font-family: 'Oswald', sans-serif;
+      font-size: x-large;
+    }
+  }
+
+
 ion-toolbar {
   font-family: "Oswald", sans-serif;
-  font-size:xx-large;
+  font-size: xx-large;
 }
 
 ion-content {
@@ -10,19 +19,20 @@ ion-content {
         font-family: "Oswald", sans-serif;
         font-size: x-large;
       }
+
       ion-card-subtitle {
         font-family: "Oswald", sans-serif;
-        font-size: medium;
+        font-size:small;
         font-style: italic;
       }
-
     }
-
-    ion-card-content{
-
-        font-family: "Oswald", sans-serif;
-        font-size:large;
-
+    ion-text{
+      font-family: "Oswald", sans-serif;
+      font-size:small;
+    }
+    ion-card-content {
+      font-family: "Oswald", sans-serif;
+      font-size: large;
     }
   }
 }
